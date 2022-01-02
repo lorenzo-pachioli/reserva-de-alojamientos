@@ -120,6 +120,7 @@ export default function Hoteles(props) {
         {filtradosPorPaisTamañoPrecioDesdeYHasta.map((hotel) => {
           return (
             <Hotel
+              key={hotel.name}
               nombre={hotel.name}
               pais={hotel.country}
               ciudad={hotel.city}

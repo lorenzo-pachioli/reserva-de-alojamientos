@@ -4,7 +4,7 @@ import Header from "./Header";
 import Filtros from "./Filtros";
 import Hoteles from "./Hoteles";
 import { hotelsData } from "./hotelsData";
-import notMobile from "./not-mobile.webp"
+import notMobile from "./smartphone.png"
 
 export default function App() {
   const [pais, setPais] = useState("En cualquier pais");
