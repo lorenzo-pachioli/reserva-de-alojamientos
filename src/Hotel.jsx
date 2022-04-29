@@ -1,4 +1,6 @@
 import React from "react";
+import bed from './bed-solid.svg';
+import map from './map-marker-alt-solid.svg';
 import "./styles.css";
 
 export default function Hotel(props) {
@@ -37,7 +39,7 @@ export default function Hotel(props) {
       <h6 className="descripcion">{props.descripcion} </h6>
       <div className="ubicacion">
         <div className="img">
-          <img src="map-marker-alt-solid.svg" alt="" />
+          <img src={map} alt="" />
         </div>
         <h5>
           {props.ciudad}, {props.pais}
@@ -46,7 +48,7 @@ export default function Hotel(props) {
       <div className="precioYTamaño">
         <div className="tamaño">
           <div className="img">
-            <img src="bed-solid.svg" alt="" />
+            <img src={bed} alt="" />
           </div>
           <h4>{props.tamaño} habitaciones </h4>
         </div>
