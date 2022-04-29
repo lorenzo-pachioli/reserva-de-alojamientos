@@ -221,30 +221,8 @@
   background-color: rgb(255, 153, 153);
   text-align: center;
 }
-.web{
-  width: 100vw;
-  height: 100vh;
-  display:block;
-}
 
-.not-mobile{
-  width: 100vw;
-  height: 100vh;
-  display:none;
-  background-color: lightcyan;
-  
-}
 
-.not-mobile h1{
-  color:darkgray;
-  padding: 15px;
-  width: 80vw;
-
-}
-
-.not-mobile img{
-  width: 50vw;
-}
 
 @media screen and (max-width: 900px) {
  /*  .web{

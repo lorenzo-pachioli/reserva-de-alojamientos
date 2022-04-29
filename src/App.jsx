@@ -4,7 +4,6 @@ import Header from "./Header";
 import Filtros from "./Filtros";
 import Hoteles from "./Hoteles";
 import { hotelsData } from "./hotelsData";
-import notMobile from "./smartphone.png"
 
 export default function App() {
   const [pais, setPais] = useState("En cualquier pais");
@@ -54,11 +53,7 @@ export default function App() {
           hasta={hasta}
         />
       </div>
-      
-      {/* <div className="not-mobile">
-        <h1>Uppss, this web site is still not available on mobile devices</h1>
-        <img src={notMobile}  alt="img not found" />
-      </div> */}
+     
     </div>
   );
 }
