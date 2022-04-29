@@ -55,10 +55,10 @@ export default function App() {
         />
       </div>
       
-      <div className="not-mobile">
+      {/* <div className="not-mobile">
         <h1>Uppss, this web site is still not available on mobile devices</h1>
         <img src={notMobile}  alt="img not found" />
-      </div>
+      </div> */}
     </div>
   );
 }

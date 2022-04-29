@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import "./trash-alt-solid.svg";
+import trashCan from "./trash-alt-solid.svg";
 
 export default function Filtros(props) {
   let {
@@ -245,8 +245,8 @@ function Reset(props) {
   };
 
   return (
-    <button onClick={reset} className="button">
-      <img src="./trash-alt-solid.svg" id="trash" alt="" />
+    <button onClick={reset} className="button trash">
+      <img src={trashCan} id="trash" alt="" />
     </button>
   );
 }

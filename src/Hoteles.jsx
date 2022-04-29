@@ -95,7 +95,7 @@ export default function Hoteles(props) {
         </div>
       );
     } else if (estadoLista === 0 && (fechaUnix < fechaHoy || hasta < desde)) {
-      console.log("alerta fecha");
+      
       return (
         <div id="alerta">
           <h2 className="alerta">La fecha seleccionada es incorrecta</h2>

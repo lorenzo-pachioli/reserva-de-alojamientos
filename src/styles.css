@@ -53,8 +53,8 @@
   border-radius: 5px;
 }
 #trash {
-  height: 20px;
-  width: 30px;
+  height: 80%;
+  width: 80%;
 }
 
 .hotel {
@@ -178,7 +178,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   margin-top: 15px;
 }
 
@@ -247,7 +247,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .web{
+ /*  .web{
     display: none;
   }
 
@@ -257,5 +257,25 @@
     justify-content: center;
     align-items: center;
   }
-  
+   */
+   .filtros {
+    width: 100%;
+    background-color: rgb(71, 111, 243);
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .input {
+    height: 50px;
+    border-radius: 20px;
+    width: min-content;
+  }
+  .hotel {
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    height: min-content;
+    margin: 2%;
+  }
 }
